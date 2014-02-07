@@ -13,7 +13,7 @@ Your system should have the following installed before beginning the walkthrough
 + [git] (http://git-scm.com/)
 + [java] (http://www.java.com/en/) runtime >= 6.0
 
-## Running era-2.0-webui from source
+## Running hydra-demo from source
 
 ```shell
 $ git clone https://github.com/ualbertalib/hydra-demo.git
