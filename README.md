@@ -1,6 +1,11 @@
 # hydra-demo
 Hydra with backlight demo web application
 
+## Documents
++ [Drive into Hydra] (https://github.com/projecthydra/hydra/wiki/Dive-into-Hydra)
++ [The Hydra Project] (https://wiki.duraspace.org/display/hydra/The+Hydra+Project)
++ [GitHub] (https://github.com/projecthydra/hydra)
+
 ## System Requirements
 Your system should have the following installed before beginning the walkthrough
 + [ruby] (https://www.ruby-lang.org/en/) 1.9.3 or 2.0.0
