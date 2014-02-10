@@ -31,13 +31,17 @@ $ bundle install
 $ rake jetty:start
 $ rails server
 ```
-### Stop servers
+
+### Testing
++ Point your browser to <http://locahost:3000/> and try searching
++ Fedora instance: <http://localhost:8983/fedora/>
++ Solr instance: <http://localhost:8983/solr/>
+
+### Stop application servers
 
 ```shell
 $ ^C
 $ rack jetty:stop
 ```
 
-+ Point your browser to <http://locahost:3000/> and try searching
-+ Fedora instance: <http://localhost:8983/fedora/>
-+ Solr instance: <http://localhost:8983/solr/>
+
