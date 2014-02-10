@@ -15,14 +15,27 @@ Your system should have the following installed before beginning the walkthrough
 
 ## Running hydra-demo from source
 
+### Install Ruby and Rails using RVM
+
 ```shell
 $ curl -sSL https://get.rvm.io | bash -s stable --ruby
 $ curl -sSL https://get.rvm.io | bash -s stable --rails
+```
+
+### Start application servers
+
+```shell
 $ git clone https://github.com/ualbertalib/hydra-demo.git
 $ cd hydra-demo
 $ bundle install
 $ rake jetty:start
 $ rails server
+```
+### Stop servers
+
+```shell
+$ ^C
+$ rack jetty:stop
 ```
 
 + Point your browser to <http://locahost:3000/> and try searching
