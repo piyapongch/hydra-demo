@@ -41,7 +41,7 @@ $ rails server
 
 ```shell
 $ ^C
-$ rack jetty:stop
+$ rake jetty:stop
 ```
 
 
