@@ -18,7 +18,6 @@ Your system should have the following installed before beginning the walkthrough
 ### Install Ruby and Rails using RVM
 
 ```shell
-$ curl -sSL https://get.rvm.io | bash -s stable --ruby
 $ curl -sSL https://get.rvm.io | bash -s stable --rails
 ```
 
