@@ -22,9 +22,10 @@ $ curl -sSL https://get.rvm.io | bash -s stable --ruby
 $ curl -sSL https://get.rvm.io | bash -s stable --rails
 $ git clone https://github.com/ualbertalib/hydra-demo.git
 $ cd hydra-demo
-$ rails g hydra:jetty
+$ rails g hydra:jetty*
 ```
-
+  \* if you are having problem with writing tmp file, probably you do not have unzip installed.
+  
 ### Start application servers
 
 ```shell
