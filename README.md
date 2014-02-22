@@ -13,28 +13,30 @@ Your system should have the following installed before beginning the walkthrough
 + [git] (http://git-scm.com/)
 + [java] (http://www.java.com/en/) runtime >= 6.0
 
-## Running hydra-demo from source
+## Running hydra-demo
 
 ### Install Ruby and Rails using RVM
 
 ```shell
+$ curl -sSL https://get.rvm.io | bash -s stable --ruby
 $ curl -sSL https://get.rvm.io | bash -s stable --rails
+$ git clone https://github.com/ualbertalib/hydra-demo.git
+$ cd hydra-demo
+$ rails g hydra:jetty
 ```
 
 ### Start application servers
 
 ```shell
-$ git clone https://github.com/ualbertalib/hydra-demo.git
-$ cd hydra-demo
-$ bundle install
 $ rake jetty:start
 $ rails server
 ```
 
-### Testing
-+ Point your browser to <http://locahost:3000/> and try searching
-+ Fedora instance: <http://localhost:8983/fedora/>
-+ Solr instance: <http://localhost:8983/solr/>
+### Blacklight User Interface
++ Home: <http://localhost:3000/>
++ Add/Edit/Delete: <http://localhost:3000/books/>
++ Fedora: <http://localhost:8983/fedora/>
++ Solr: <http://localhost:8983/solr/>
 
 ### Stop application servers
 
