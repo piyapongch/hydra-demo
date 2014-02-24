@@ -24,13 +24,16 @@ $ git clone https://github.com/ualbertalib/hydra-demo.git
 $ cd hydra-demo
 $ rails g hydra:jetty*
 ```
-  \* if you are having problem with writing tmp file, probably you do not have unzip installed.
+  \* if you are having problem with writing tmp file, probably you do not have unzip installed. to install it using command below
+```shell
+$ sudo apt-get install unzip
+```
   
 ### Start application servers
 
 ```shell
 $ rake jetty:start
-$ rails server
+$ rails server -d
 ```
 
 ### Blacklight User Interface
@@ -42,7 +45,7 @@ $ rails server
 ### Stop application servers
 
 ```shell
-$ ^C
+$ kill -9 $(lsof -i :3000 -t)
 $ rake jetty:stop
 ```
 
