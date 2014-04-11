@@ -16,6 +16,8 @@ Your system should have the following installed before beginning the walkthrough
 ```shell
 $ vagrant up
 ```
+It takes the solr server about a minute after Vagrant provisioning completes to begin listening on port 8983.  Be patient.
+
 See [vagrant documentation] (http://docs.vagrantup.com/v2/getting-started/index.html) to further interactions with the hydra-demo server
 
 ### Blacklight User Interface
