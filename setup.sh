@@ -5,5 +5,5 @@ yum groupinstall -y "Development Tools"
 cd /var/www/sites/hydra-demo
 bundle install 
 rails g hydra:jetty
-rake jetty:start
+bundle exec rake jetty:start
 rails server -d
