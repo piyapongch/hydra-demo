@@ -6,18 +6,16 @@
 </p>
 
 <p>
-  <b>Author(s):</b>
+  <b>Author:</b>
   <ul>
-    <%- @book.author.each do |author|%>
-      <li><%= author %></li>
-    <%- end %>
+		<li><%= @book.author %></li>
   </ul>
 </p>
 
 <p>
   <b>Description:</b>
   <ul>
-      <li><%= descrption %></li>
+      <li><%= @book.description %></li>
   </ul>
 </p>
 
