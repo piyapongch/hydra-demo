@@ -20,7 +20,7 @@ Your system should have the following installed before beginning the walkthrough
 ```shell
 $ curl -sSL https://get.rvm.io | bash -s stable --ruby
 $ curl -sSL https://get.rvm.io | bash -s stable --rails
-$ git clone https://github.com/ualbertalib/hydra-demo.git
+$ git clone https://github.com/piyapongch/hydra-demo.git
 $ cd hydra-demo
 $ rails g hydra:jetty*
 ```
