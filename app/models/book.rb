@@ -5,5 +5,5 @@ class Book < ActiveFedora::Base
   has_attributes :author, datastream: 'descMetadata', multiple: false
   has_attributes :description, datastream: 'descMetadata', multiple: false
 
-  has_many :pages, :property=> :is_part_of
+#  has_many :pages, :property=> :is_part_of
 end
